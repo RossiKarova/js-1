@@ -1,0 +1,25 @@
+input{
+    font-size: 16px;
+    padding: 4px 8px;
+    border: 1px solid #efefef;
+    border-radius: 3px;
+    margin-top: 12px;
+    display: block;
+}
+span{
+    font-size: 16px;
+    display: block;
+    margin-top: 12px;
+    padding: 4px 8px;
+    }
+
+
+div {
+    padding: 20px;
+}
+
+h2 {
+    font-family: Tahoma;
+    margin: 0;
+}
+

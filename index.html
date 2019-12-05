@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8">
+    <link href="main.css" rel="stylesheet">
+    <title>JS</title>
+ </head>
+<body>
+<div class="container">
+    <h2>Нажми меня</h2>
+    <input type="button" value="Кнопка" onclick="addNum()" />
+</div>
+<div class="container">
+    <h2>Результат</h2>
+    <span id="plus1">0</span>
+</div>
+<script >
+    var elem = document.getElementById('plus1'), num = +elem.innerHTML;
+    function addNum(){
+        elem.innerHTML = num++;
+    }
+</script>
+</body>
+</html>
